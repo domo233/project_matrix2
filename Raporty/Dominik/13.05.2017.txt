@@ -1,1 +1,1 @@
-Zak³adam repozytorium GIT'a, dodaje cz³onków dru¿yny do projektu.
+Zak³adam repozytorium GIT'a, dodaje cz³onków dru¿yny do projektu. Planujê podstawow¹ strukturê plików.
