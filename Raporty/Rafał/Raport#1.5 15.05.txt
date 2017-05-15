@@ -1,0 +1,3 @@
+1.5 15.05
+-nauka jêzyka programowania C++ (podstawowe zasady programowania obiektowego);
+-powtórka materia³u z algebry, kontynuacja;
