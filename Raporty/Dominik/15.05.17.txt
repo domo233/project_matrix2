@@ -1,0 +1,5 @@
+-utworzy³em klasê Wektor, jest to klasa poœrednia, która pozwoli zaimplementowaæ w³aœciw¹ klasê dla macierzy
+-dla klasy Wektor przeci¹¿y³em operatory dodawania, odejmowania, indeksowania, mno¿enia (dla skalarów)
+-ze wzglêdu korzystania z dynamicznej alokacji pamiêci w tworzeniu obiektu, przeci¹¿y³em równie¿ operator przypisania, aby dokonywa³ g³êbokiego kopiowania
+-to samo wykona³em dla konstruktora kopiuj¹cego
+-przeprowadzi³em odpowiednie testy, wyniki za³¹czone w zdjêciu
