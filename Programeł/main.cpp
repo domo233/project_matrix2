@@ -20,6 +20,8 @@ int main()
     cout << "Przeciazenie operatora indeksowania : \n";
     for(int i=0;i<3;i++)
     {
-        cout << w1[i] << endl;
+        cout << "w["<< i << "] : " << w1[i] << endl;
     }
+    cout << "Przeciazenie operatorow porownania : \nw1==w2 : " << (w1==w2) <<"\nw1==w1 : " << (w1==w1);
+    cout << "\nw1!=w2 : " << (w1!=w2) << "\nw1!=w1 : " << (w1!=w1);
 }

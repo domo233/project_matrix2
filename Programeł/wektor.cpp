@@ -79,7 +79,36 @@ Wektor operator*(const Wektor & obiekt, const double & mnoznik)
     return mnoznik*obiekt;
 }
 
+bool Wektor::operator==(const Wektor & obiekt) const
+{
+    if(rozmiar==obiekt.rozmiar)
+    {
+        for(int i=0;i<rozmiar;i++)
+        {
+            if(tablica[i]!=obiekt[i]) return 0;
+        }
+        return 1;
+    }
+    else return 0;
+}
 
+bool Wektor::operator!=(const Wektor & obiekt) const
+{
+    return !((*this)==obiekt);
+}
+
+const Wektor & Wektor::operator+=(const Wektor & obiekt)
+{
+    Wektor temp=*this+obiekt;
+    *this=temp;
+    return *this;
+}
+
+const Wektor & Wektor::operator-=(const Wektor & obiekt)
+{
+    *this=(*this)-obiekt;
+    return *this;
+}
 //////////////////P R Z Y P I S A N I E ////////////////////////////
 ///////////////////////////////////////////////////////////////////
 
@@ -131,6 +160,10 @@ double & Wektor::operator[](int r)
     return tablica[r];
 }
 
+double & Wektor::operator[](int r) const
+{
+    return tablica[r];
+}
 
 
 
