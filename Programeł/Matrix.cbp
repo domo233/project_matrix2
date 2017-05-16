@@ -35,6 +35,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="matrix.cpp" />
 		<Unit filename="matrix.h" />
+		<Unit filename="wektor.cpp" />
+		<Unit filename="wektor.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
