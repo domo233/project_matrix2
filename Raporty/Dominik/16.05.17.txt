@@ -1,0 +1,1 @@
+Motywowanie cz³onków dru¿yny do dzia³ania. Opracowanie kolejnych operatorów przeci¹¿enia : != i ==. Nauka jêzyka c++.
