@@ -24,4 +24,6 @@ int main()
     }
     cout << "Przeciazenie operatorow porownania : \nw1==w2 : " << (w1==w2) <<"\nw1==w1 : " << (w1==w1);
     cout << "\nw1!=w2 : " << (w1!=w2) << "\nw1!=w1 : " << (w1!=w1);
+    cout << "\nPrzeciazenie operatora += : " <<(w1+=w2);
+    cout << "Przeciazenie operatora -= : " <<(w1-=w2);
 }

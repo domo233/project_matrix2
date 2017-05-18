@@ -97,16 +97,15 @@ bool Wektor::operator!=(const Wektor & obiekt) const
     return !((*this)==obiekt);
 }
 
-const Wektor & Wektor::operator+=(const Wektor & obiekt)
+Wektor & Wektor::operator+=(const Wektor & obiekt)
 {
-    Wektor temp=*this+obiekt;
-    *this=temp;
+    *this=*this+obiekt;
     return *this;
 }
 
-const Wektor & Wektor::operator-=(const Wektor & obiekt)
+Wektor & Wektor::operator-=(const Wektor & obiekt)
 {
-    *this=(*this)-obiekt;
+    *this=*this-obiekt;
     return *this;
 }
 //////////////////P R Z Y P I S A N I E ////////////////////////////
