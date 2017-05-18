@@ -5,13 +5,13 @@
 
 1494884351 d:\repozytorium\branches\domo\programe許matrix.h
 
-1494967253 source:d:\repozytorium\branches\domo\programe許wektor.cpp
+1495004346 source:d:\repozytorium\branches\domo\programe許wektor.cpp
 	"wektor.h"
 
-1494967004 d:\repozytorium\branches\domo\programe許wektor.h
+1495004125 d:\repozytorium\branches\domo\programe許wektor.h
 	<iostream>
 
-1494967095 source:d:\repozytorium\branches\domo\programe許main.cpp
+1495004125 source:d:\repozytorium\branches\domo\programe許main.cpp
 	<iostream>
 	"matrix.h"
 	"wektor.h"
