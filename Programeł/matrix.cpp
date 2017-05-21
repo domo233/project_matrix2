@@ -3,7 +3,7 @@
 
 //metody
 
-//konstruktor kopiuj�cy
+//konstruktor kopiuj¹cy
 
 Matrix::Matrix(const Matrix & obiekt)
 {
@@ -36,4 +36,31 @@ Matrix & Matrix::operator=(const Matrix & obiekt)
         *wiersze[i] = *obiekt.wiersze[i];
     }
     return *this;
+}
+
+// algorytm mnożący
+
+Matrix operator*(Matrix & obiekt1,Matrix & obiekt2)
+{
+    Matrix nowy(obiekt1.row,obiekt2.col);
+    if(obiekt1.col==obiekt2.row)
+    {
+        for(int i=0; i<(int)obiekt1.row; i++)
+        {
+            for(int j=0; j<(int)obiekt2.col; j++)
+            {
+                item wynik=0;
+                for(int k=0; k<(int)obiekt1.col; k++)
+                {
+                    wynik+=obiekt1[i][k]*obiekt2[k][j];
+                }
+                nowy[i][j]=wynik;
+            }
+        }
+        return nowy;
+    }
+    else
+    {
+        return Matrix(2,2);
+    }
 }
