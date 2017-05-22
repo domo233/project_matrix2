@@ -64,3 +64,36 @@ Matrix operator*(Matrix & obiekt1,Matrix & obiekt2)
         return Matrix(2,2);
     }
 }
+
+//22.05
+
+std::istream & operator>>(std::istream & is, Matrix & obiekt)
+{
+    for(int i=0; i<(int)obiekt.col; i++)
+    {
+        is >> *obiekt.wiersze[i];
+    }
+    return is;
+}
+
+//22.05
+
+double Matrix::getValue(int row, int col)
+ {
+     return (*wiersze)[row][col];
+ }
+ 
+ //22.05
+ 
+std::ostream & operator<<(std::ostream & os,const Matrix & obiekt);
+{
+   for (int r = 0; r < (int)obiekt.wiersze; r++)
+  {
+    os << obiekt.getValue(r, 0);
+    for (int c = 1; c < (int)obiekt.cols; c++)
+    {
+      os << " " << obiekt.getValue(r,c);
+    }
+    os << endl;
+  }
+}
