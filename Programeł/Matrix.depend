@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1494884351 source:d:\repozytorium\branches\domo\programe許matrix.cpp
+	<iostream>
+	"matrix.h"
+
+1494884351 d:\repozytorium\branches\domo\programe許matrix.h
+
+1495004346 source:d:\repozytorium\branches\domo\programe許wektor.cpp
+	"wektor.h"
+
+1495004125 d:\repozytorium\branches\domo\programe許wektor.h
+	<iostream>
+
+1495004125 source:d:\repozytorium\branches\domo\programe許main.cpp
+	<iostream>
+	"matrix.h"
+	"wektor.h"
+

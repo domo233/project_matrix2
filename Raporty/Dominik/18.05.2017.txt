@@ -1,0 +1,1 @@
+Utworzy³em plik nag³ówkowy dla klasy Matrix, zadeklarowa³em listê potrzebnych funkcji oraz przydzieli³em ich definiowanie cz³onkom zespo³u.
