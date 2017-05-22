@@ -1,0 +1,2 @@
+Pomagam Rafa³owi w napisaniu operatorów przeci¹¿aj¹cych strumieñ wejœcia/wyjœcia dla macierzy.
+Zastanawiam siê nad implementacj¹ algorytmu gaussa.
