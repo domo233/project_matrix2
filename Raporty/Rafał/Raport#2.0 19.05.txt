@@ -1,0 +1,17 @@
+Kontynuacja nauki jêzyka C++
+
+//////////////////////////////
+
+Rozpocz¹³em pracê nad pisaniem kodu. Utworzone zosta³o:
+
+std::istream & operator>>(std::istream & is, Matrix & obiekt)
+{
+    for(int i=0; i<(int)obiekt.col; i++)
+    {
+        is >> *obiekt.wiersze[i];
+    }
+    return is;
+}
+
+Adnotacja:
+Przy pocz¹tku pracy uzyska³em du¿e wsparcie techniczne od Dominika.
