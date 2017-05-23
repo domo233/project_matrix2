@@ -1,0 +1,1 @@
+Opracowujê wstêpn¹ implementacjê algorytmu gaussa, wymaga ona jeszcze testów i poprawek.
