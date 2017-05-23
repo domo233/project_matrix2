@@ -1,0 +1,4 @@
+Ci¹g dalszy prac nad kodem. Wg podzia³u pozosta³o mi dopisaæ dwie funkcje zwracaj¹ce kolejno iloœæ kolumn oraz wierszy macierzy.
+
+int cols() const{return col;}
+int rows() const{return row;}
