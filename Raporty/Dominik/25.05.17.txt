@@ -1,0 +1,1 @@
+Rozpoczynam naukê obs³ugi platformy Qt. Obejrza³em 13 pierwszych tutoriali dotycz¹cych Qt na kanale ProgrammingKnowledge.
