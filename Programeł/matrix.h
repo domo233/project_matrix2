@@ -1,6 +1,8 @@
 #ifndef MATRIX
 #define MATRIX
 #include "wektor.h"
+#include <time.h>
+#include <stdlib.h>
 
 class Matrix
 {
@@ -11,6 +13,8 @@ private:
 public:
     Matrix(unsigned int rows=2, unsigned int cols=2);
     Matrix(const Matrix &);
+    Matrix(std::string);
+    Matrix(unsigned int rows, unsigned int cols, std::string);
     ~Matrix();
     Matrix operator+(const Matrix &) const;
     Matrix operator-(const Matrix &) const;

@@ -1,0 +1,2 @@
+Obejrza³em pozosta³e 15 tutoriali z serii "Qt for beginners" z kana³u ProgrammingKnowledge.
+Zakoñczy³em pracê nad klas¹ Matrix, uzupe³ni³em j¹ o brakuj¹ce metody oraz przeprowadzi³em odpowiednie testy.
