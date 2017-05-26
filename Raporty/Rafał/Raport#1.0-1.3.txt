@@ -1,0 +1,13 @@
+1.0 10.05.2017
+-zainstalowanie œrodowiska programistycznego Microsoft Visual Studio 2015
+-zainstalowanie Tortoise SVN
+-utworzenie repozytorium
+1.1 11.05.
+-zgromadzenie potrzebnych notatek z zakresu algebry z pierwszego semestru
+-zaopatrzenie siê w pomoce naukowe zwi¹zane z wybranym jêzykiem programowania
+1.2 12.05.
+-powtórka materia³u z algebry (podstawowe w³asnoœci macierzy)
+-zapoznanie z zainstalowanym w etapie 1.0 oprogramowaniem
+1.3 13.05.
+-powtórka materia³u z algebry (prostsze dzia³ania na macierzach)
+-nauka jêzyka programowania C++

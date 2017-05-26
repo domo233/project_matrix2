@@ -1,0 +1,19 @@
+Dalszy etap pracy nad kodem. Dodane zosta³y:
+
+double Matrix::getValue(int row, int col)
+ {
+     return (*wiersze)[row][col];
+ }
+ 
+std::ostream & operator<<(std::ostream & os,const Matrix & obiekt);
+{
+   for (int r = 0; r < (int)obiekt.wiersze; r++)
+  {
+    os << obiekt.getValue(r, 0);
+    for (int c = 1; c < (int)obiekt.cols; c++)
+    {
+      os << " " << obiekt.getValue(r,c);
+    }
+    os << endl;
+  }
+}

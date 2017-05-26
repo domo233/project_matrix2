@@ -1,0 +1,5 @@
+-zainstalowanie œrodowiska programistycznego Microsoft Visual Studio 2015
+-zainstalowanie Tortoise SVN
+-utworzenie repozytorium
+-przypomnienie podstawowych operacji na macierzach
+-nauka jêzyka c++
