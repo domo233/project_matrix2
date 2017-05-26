@@ -1,29 +1,23 @@
 #include <iostream>
 #include "matrix.h"
-#include "wektor.h"
+#include "algorithm.h"
+#include <time.h>
+#include <stdlib.h>
 
 using namespace std;
 
 int main()
 {
-    cout << "TESTOWANIE KLASY WEKTOR\n" << endl;
-    Wektor w1(3);
-    Wektor w2(3);
-    cout << "||Test przeciazenia operatorow strumienia ||\n";
-    cout << "Podaj pierwszy wektor poziomy : ";
-    cin >> w1;
-    cout << "Podaj drugi wektor poziomy : ";
-    cin >> w2;
-    cout << "Przeciazenie operatora dodawania : " << w1+w2;
-    cout << "Przeciazenie operatora odejmowania : " << w1-w2;
-    cout << "Przeciazenie operatora mnozenia(dla skalarow) 5*w2: " << 5*w2;
-    cout << "Przeciazenie operatora indeksowania : \n";
-    for(int i=0;i<3;i++)
-    {
-        cout << "w["<< i << "] : " << w1[i] << endl;
-    }
-    cout << "Przeciazenie operatorow porownania : \nw1==w2 : " << (w1==w2) <<"\nw1==w1 : " << (w1==w1);
-    cout << "\nw1!=w2 : " << (w1!=w2) << "\nw1!=w1 : " << (w1!=w1);
-    cout << "\nPrzeciazenie operatora += : " <<(w1+=w2);
-    cout << "Przeciazenie operatora -= : " <<(w1-=w2);
+    srand(time(NULL));
+    Matrix m1(5,5,"rand");
+    Matrix m2(5,5,"rand");
+    cout << "TEST KLASY MATRIX\n\n";
+    cout << "Tworze dwie tablice 5x5 i wypelniam je za pomoca rand()\n";
+    cout << "m1 :\n" << m1;
+    cout << "m2 :\n" << m2;
+    cout << "Dodawanie : \n" << m1+m2;
+    cout << "Odejmowanie : \n" << m1-m2;
+    cout << "Mnozenie : \n" << m1*m2;
+
+    return 0;
 }

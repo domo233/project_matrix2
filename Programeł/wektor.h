@@ -2,13 +2,16 @@
 #define WEKTOR
 #include <iostream>
 
+typedef long double item;
+
 class Wektor
 {
 private:
-    double * tablica;
+    item * tablica;
     unsigned int rozmiar;
 public:
     Wektor(unsigned int rozmiar_=2);
+    Wektor(std::string);
     Wektor(const Wektor &);
     ~Wektor();
     Wektor operator+(const Wektor &) const;
@@ -18,10 +21,10 @@ public:
     bool operator!=(const Wektor &) const;
     Wektor & operator+=(const Wektor &);
     Wektor & operator-=(const Wektor &);
-    double & operator[](int);
-    double & operator[](int) const;
-    friend Wektor operator*(const double &, const Wektor &);
-    friend Wektor operator*(const Wektor &, const double &);
+    item & operator[](int);
+    item & operator[](int) const;
+    friend Wektor operator*(const item &, const Wektor &);
+    friend Wektor operator*(const Wektor &, const item &);
     friend std::ostream & operator<<(std::ostream &,const Wektor &);
     friend std::istream & operator>>(std::istream &,Wektor &);
 };
