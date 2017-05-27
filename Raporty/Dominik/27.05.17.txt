@@ -1,0 +1,1 @@
+Próbujê napisaæ pierwszy program okienkowy w Qt creator. Tworzê przyk³adowe okienko do pobierania danych.
