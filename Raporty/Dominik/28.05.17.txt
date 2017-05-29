@@ -1,0 +1,1 @@
+Podejmujê kolejn¹ próbê napisania programu okienkowo za pomoc¹ Qt creator. Programuje podstawowy interfejs dla obliczeñ macierzy 2x2. Do³¹czam zdjêcia z testów.
