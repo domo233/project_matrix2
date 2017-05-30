@@ -1,0 +1,3 @@
+25.05.2017
+
+Zaniechanie nauki Windows API, Windows Forms na rzecz biblioteki QT. Ogolne zapoznanie z biblioteka i srodowiskiem QT Creator
