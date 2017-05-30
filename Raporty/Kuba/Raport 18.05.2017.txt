@@ -1,0 +1,2 @@
+-nauka programowania c++
+-szukanie mo¿liwych funkcji które mo¿e posiadac program

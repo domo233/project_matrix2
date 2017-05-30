@@ -1,1 +1,2 @@
-.
+koñcowe prace nad projektem 
+nauka c++

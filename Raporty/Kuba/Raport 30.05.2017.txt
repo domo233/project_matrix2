@@ -1,1 +1,3 @@
-.
+koñcowe prace nad projektem 
+nauka c++
+poprawienia b³êdów w kodzie
