@@ -1,0 +1,7 @@
+17.05.2017
+
+Powtórka z C++
+-klasy, obiektowosc
+-operatory, przeciazanie
+-polimorfizm
+
