@@ -1,0 +1,1 @@
+Obejrza³em kilka poradników w Internecie, dziêki czemu wraz z pomoc¹ Dawida poprawnie skonfigurowa³em posiadane wczeœniej œrodowisko TortoiseSVN. Powinno dzia³aæ poprawnie.
