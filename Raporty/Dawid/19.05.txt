@@ -1,0 +1,4 @@
+19.05.2017
+
+
+Przeciazenie operatorów dla matrix
