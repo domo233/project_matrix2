@@ -1,0 +1,2 @@
+30.05
+Opracowanie Readme to udostepnienia naszego oprogramowania OpenSource.
