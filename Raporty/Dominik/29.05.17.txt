@@ -1,0 +1,1 @@
+Dodajê dynamiczny przydzia³ na komórki macierzy a i b, tworzê strukturê menu, wstêpnie projektujê wygl¹d programu.
