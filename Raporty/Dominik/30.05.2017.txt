@@ -1,0 +1,4 @@
+Zapewnienie funkcjonalnoœci programu dziêki technice Signal and Slot, wykorzystujê klasê Matrix do napisania okienkowo w Qt
+dodawania, odejmowania, mno¿enia, liczenia wyznacznika i macierzy trójk¹tnej metod¹ Gaussa. Dodajê algorytm obliczaj¹cy rz¹d macierzy.
+Pracujê nad graficznym interfejsem przy pomocy CSS, którego Qt pozwala u¿ywaæ. Dodajê ikony dla odpowiednich dzia³añ. Czêœæ ikon pobieram
+ze strony www.iconfinder.com, czêœæ wykonujê sam.
