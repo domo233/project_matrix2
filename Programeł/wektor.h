@@ -4,6 +4,12 @@
 
 typedef long double item;
 
+
+
+// Wektor (Vector-typo) class declarations, header file
+// Plik nag?ówkowy z deklaracjami klasy Wektor
+
+
 class Wektor
 {
 private:

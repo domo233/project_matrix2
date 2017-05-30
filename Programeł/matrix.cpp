@@ -1,5 +1,11 @@
 #include "matrix.h"
 
+
+
+// Interfejs klasy Matrix: konstruktory, przeci??anie, indeksowanie
+// Matrix class interface: constructors, overloaded operators and indexing methods
+
+
 //////////////////K O N S T R U K T O R Y //////////////////////////
 ///////////////////////////////////////////////////////////////////
 

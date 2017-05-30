@@ -1,7 +1,14 @@
 #include "algorithm.h"
 
+
+// Tworzenie macierzy trójk?tnej metod? Gaussa.
+// Tridiagonal matrix generation algorithm (Gaussian method)
+
+
 int gauss(Matrix & obiekt)
 {
+
+
     int zamiana=1;
     for(int i=0; i<obiekt.rows(); i++)
     {

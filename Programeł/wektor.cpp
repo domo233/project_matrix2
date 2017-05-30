@@ -1,5 +1,11 @@
 #include "wektor.h"
 
+
+// Interfejs klasy Wektor: konstruktory, przeci??anie, indeksowanie
+// Wektor class interface: constructors, overloaded operators and indexing methods
+
+
+
 //////////////////K O N S T R U K T O R Y //////////////////////////
 ///////////////////////////////////////////////////////////////////
 

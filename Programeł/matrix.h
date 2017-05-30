@@ -4,6 +4,13 @@
 #include <time.h>
 #include <stdlib.h>
 
+
+
+
+// Matrix class header file
+// Plik nag?ówkowy  z dekleracj? klasy Matrix
+
+
 class Matrix
 {
 private:

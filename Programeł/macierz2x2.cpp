@@ -1,6 +1,12 @@
 #include "macierz2x2.h"
 #include "ui_macierz2x2.h"
 
+
+
+// Obs?uga okna macierzy 2x2
+// Window handling for 2x2 dimension matrix
+
+
 Macierz2x2::Macierz2x2(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Macierz2x2)

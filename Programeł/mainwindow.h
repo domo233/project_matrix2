@@ -4,6 +4,13 @@
 #include <QMainWindow>
 #include "macierz2x2.h"
 
+
+
+// UI mainwindow class declaration
+// Deklaracja klasy g?ównego okna interfejsu u?ytkownika
+
+
+
 namespace Ui {
 class MainWindow;
 }
