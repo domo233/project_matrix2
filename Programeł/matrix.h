@@ -26,7 +26,7 @@ public:
     friend std::ostream & operator<<(std::ostream &,const Matrix &);
     friend std::istream & operator>>(std::istream &,Matrix &);
     int cols() const{return col;}
-    int rows() const{return row;}
+    int rows() const{return row;};
     void func(void (*p)(item &));
     friend Matrix potega(Matrix &,int);
 };
