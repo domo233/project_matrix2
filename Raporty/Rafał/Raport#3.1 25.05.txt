@@ -1,0 +1,1 @@
+Wyst¹pi³y komplikacje z wysy³aniem raportów, gdy¿ TortoiseSVN pokazujê b³êdy przy próbach update'u. Reinstalacja programu nie przynios³a rezultatu. Pobrane zosta³o nowe œrodowisko GitHub Desktop.
