@@ -1,0 +1,3 @@
+26.05.2017
+
+Zapoznanie z biblioteka QT, pobranie srodowiska, przerobienie prostego tutorialu z Hello World
