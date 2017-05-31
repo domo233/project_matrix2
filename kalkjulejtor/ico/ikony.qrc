@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/ico">
+        <file>add.png</file>
+        <file>losuj.png</file>
+        <file>minus.png</file>
+        <file>razy.png</file>
+        <file>det.png</file>
+        <file>rank.png</file>
+        <file>gauss.png</file>
+        <file>background.jpg</file>
+    </qresource>
+</RCC>
